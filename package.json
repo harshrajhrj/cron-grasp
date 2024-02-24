@@ -1,0 +1,16 @@
+{
+  "name": "cron",
+  "version": "1.0.0",
+  "description": "Learning CRON",
+  "main": "scheduler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HRJ",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cron": "^3.1.6",
+    "nanoid": "^5.0.6"
+  }
+}
