@@ -1,4 +1,3 @@
-// article : https://medium.com/@shriharimohan/node-js-cron-handling-overlapping-tasks-like-a-noob-d8627b493496
 import { CronJob } from 'cron'
 import { nanoid } from 'nanoid'
 let isJobRunning = false
