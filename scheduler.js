@@ -8,6 +8,9 @@ const delay = (ms) => {
     })
 }
 
+/**
+ * job scheduler
+ */
 const job = new CronJob('*/5 * * * * *', async () => {
     if (isJobRunning) {
         console.log("__ JOB SKIPPED __ ")
